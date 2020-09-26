@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -72,7 +72,10 @@ body {
   z-index: -1;
 }
 
-#contact-link{
+#contact-link,
+#contact-link:link,
+#contact-link:visited,
+#contact-link:hover {
   color: var(--yellow2);
   font-weight: bold;
   font-family: "Exo 2";
