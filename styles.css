@@ -86,12 +86,21 @@ nav {
   top: 0;
   width: 100%;
   left: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav > div {
   display: flex;
   justify-content: flex-end;
   padding: 1rem;
+  background: rgba(100, 100, 100, 0.1);
+  border-radius: 0 0 0 1rem;
+  transition: background 0.5s ease ;
+}
+
+.transparent{
+  background: transparent;
 }
 
 nav .link-cover {
@@ -279,6 +288,12 @@ p {
   }
   p {
     font-size: 1rem;
+  }
+
+  nav > div {
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 0;
   }
 
   .project-name {
