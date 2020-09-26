@@ -15,3 +15,9 @@ window.addEventListener("scroll", (ev) => {
     } else return;
   }
 });
+
+const contactform = document.querySelector(".contact-form");
+
+contactform.addEventListener("submit", (ev) => {
+  contactform.reset();
+});

@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary-color: #17a2b8;
   --link-active: #42c3d7;
@@ -59,13 +63,19 @@ body {
 }
 .backdrop {
   z-index: -3;
-  background-image: url("./bgSvg.svg");
+  background-image: url("./assets/images/bgSvg.svg");
   background-size: cover;
   background-position: center;
   filter: opacity(0.1);
 }
 #particles-js {
   z-index: -1;
+}
+
+#contact-link{
+  color: var(--yellow2);
+  font-weight: bold;
+  font-family: "Exo 2";
 }
 
 section {
@@ -96,10 +106,10 @@ nav > div {
   padding: 1rem;
   background: rgba(100, 100, 100, 0.1);
   border-radius: 0 0 0 1rem;
-  transition: background 0.5s ease ;
+  transition: background 0.5s ease;
 }
 
-.transparent{
+.transparent {
   background: transparent;
 }
 
